@@ -1,0 +1,104 @@
+{
+    "scope": {
+        "names": {
+            "A": {
+                "declaration": {
+                    "type": "Identifier",
+                    "name": "A",
+                    "range": [
+                        14,
+                        15
+                    ]
+                },
+                "references": [
+                    {
+                        "identifier": {
+                            "type": "Identifier",
+                            "name": "A",
+                            "range": [
+                                0,
+                                1
+                            ]
+                        },
+                        "access": "R"
+                    }
+                ]
+            }
+        },
+        "children": [
+            {
+                "names": {
+                    "arguments": {
+                        "declaration": {
+                            "type": "Identifier",
+                            "name": "arguments",
+                            "range": [
+                                5,
+                                5
+                            ]
+                        },
+                        "references": []
+                    }
+                },
+                "children": [],
+                "range": [
+                    5,
+                    20
+                ],
+                "blockScope": {
+                    "names": {},
+                    "children": [
+                        {
+                            "names": {},
+                            "children": [],
+                            "range": [
+                                18,
+                                20
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "blockScope": {
+            "names": {},
+            "children": []
+        }
+    },
+    "entities": [
+        {
+            "declaration": {
+                "type": "Identifier",
+                "name": "A",
+                "range": [
+                    14,
+                    15
+                ]
+            },
+            "references": [
+                {
+                    "identifier": {
+                        "type": "Identifier",
+                        "name": "A",
+                        "range": [
+                            0,
+                            1
+                        ]
+                    },
+                    "access": "R"
+                }
+            ]
+        },
+        {
+            "declaration": {
+                "type": "Identifier",
+                "name": "arguments",
+                "range": [
+                    5,
+                    5
+                ]
+            },
+            "references": []
+        }
+    ]
+}

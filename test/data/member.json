@@ -1,0 +1,67 @@
+{
+    "scope": {
+        "names": {
+            "a": {
+                "declaration": null,
+                "references": [
+                    {
+                        "identifier": {
+                            "type": "Identifier",
+                            "name": "a",
+                            "range": [
+                                0,
+                                1
+                            ]
+                        },
+                        "access": "R"
+                    },
+                    {
+                        "identifier": {
+                            "type": "Identifier",
+                            "name": "a",
+                            "range": [
+                                7,
+                                8
+                            ]
+                        },
+                        "access": "R"
+                    }
+                ]
+            }
+        },
+        "children": [],
+        "blockScope": {
+            "names": {},
+            "children": []
+        }
+    },
+    "entities": [
+        {
+            "declaration": null,
+            "references": [
+                {
+                    "identifier": {
+                        "type": "Identifier",
+                        "name": "a",
+                        "range": [
+                            0,
+                            1
+                        ]
+                    },
+                    "access": "R"
+                },
+                {
+                    "identifier": {
+                        "type": "Identifier",
+                        "name": "a",
+                        "range": [
+                            7,
+                            8
+                        ]
+                    },
+                    "access": "R"
+                }
+            ]
+        }
+    ]
+}

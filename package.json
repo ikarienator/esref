@@ -1,0 +1,35 @@
+{
+    "name": "esref",
+    "description": "ECMAScript identifier reference analyzer",
+    "main": "lib/esref.js",
+    "version": "0.0.1",
+    "engines": {
+        "node": ">=0.4.0"
+    },
+    "maintainers": [{
+        "name": "Bei Zhang",
+        "email": "ikarienator@gmail.com",
+        "web": "http://twbs.in"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/ikarienator/esref.git"
+    },
+    "licenses": [{
+        "type": "BSD",
+        "url": "http://github.com/ikarienator/esref.git/raw/master/LICENSE.BSD"
+    }],
+    "dependencies": {
+        "estraverse": "~0.0.4"
+    },
+    "devDependencies": {
+        "esprima": "~1.0.2",
+        "istanbul": "~0.1.33"
+    },
+    "scripts": {
+        "test": "node test/run.js && npm run-script coverage",
+        "coverage": "npm run-script analyze-coverage && npm run-script check-coverage",
+        "analyze-coverage": "node node_modules/istanbul/lib/cli.js cover test/run.js",
+        "check-coverage": "node node_modules/istanbul/lib/cli.js check-coverage --statement -2 --branch -6 --function 100"
+    }
+}

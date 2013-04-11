@@ -1,0 +1,132 @@
+{
+    "scope": {
+        "names": {
+            "a": {
+                "declaration": {
+                    "type": "Identifier",
+                    "name": "a",
+                    "range": [
+                        21,
+                        22
+                    ]
+                },
+                "references": [
+                    {
+                        "identifier": {
+                            "type": "Identifier",
+                            "name": "a",
+                            "range": [
+                                42,
+                                43
+                            ]
+                        },
+                        "access": "R"
+                    },
+                    {
+                        "identifier": {
+                            "type": "Identifier",
+                            "name": "a",
+                            "range": [
+                                21,
+                                22
+                            ]
+                        },
+                        "access": "W"
+                    },
+                    {
+                        "identifier": {
+                            "type": "Identifier",
+                            "name": "a",
+                            "range": [
+                                4,
+                                5
+                            ]
+                        },
+                        "access": "W"
+                    }
+                ]
+            }
+        },
+        "children": [],
+        "blockScope": {
+            "names": {},
+            "children": [
+                {
+                    "names": {},
+                    "children": [
+                        {
+                            "names": {},
+                            "children": [],
+                            "range": [
+                                32,
+                                50
+                            ]
+                        }
+                    ],
+                    "range": [
+                        11,
+                        52
+                    ]
+                }
+            ]
+        }
+    },
+    "entities": [
+        {
+            "declaration": {
+                "type": "Identifier",
+                "name": "a",
+                "range": [
+                    4,
+                    5
+                ]
+            },
+            "references": []
+        },
+        {
+            "declaration": {
+                "type": "Identifier",
+                "name": "a",
+                "range": [
+                    21,
+                    22
+                ]
+            },
+            "references": [
+                {
+                    "identifier": {
+                        "type": "Identifier",
+                        "name": "a",
+                        "range": [
+                            42,
+                            43
+                        ]
+                    },
+                    "access": "R"
+                },
+                {
+                    "identifier": {
+                        "type": "Identifier",
+                        "name": "a",
+                        "range": [
+                            21,
+                            22
+                        ]
+                    },
+                    "access": "W"
+                },
+                {
+                    "identifier": {
+                        "type": "Identifier",
+                        "name": "a",
+                        "range": [
+                            4,
+                            5
+                        ]
+                    },
+                    "access": "W"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "scope": {
+        "names": {
+            "undef": {
+                "declaration": null,
+                "references": [
+                    {
+                        "identifier": {
+                            "type": "Identifier",
+                            "name": "undef",
+                            "range": [
+                                0,
+                                5
+                            ]
+                        },
+                        "access": "W"
+                    }
+                ]
+            }
+        },
+        "children": [],
+        "blockScope": {
+            "names": {},
+            "children": []
+        }
+    },
+    "entities": [
+        {
+            "declaration": null,
+            "references": [
+                {
+                    "identifier": {
+                        "type": "Identifier",
+                        "name": "undef",
+                        "range": [
+                            0,
+                            5
+                        ]
+                    },
+                    "access": "W"
+                }
+            ]
+        }
+    ]
+}

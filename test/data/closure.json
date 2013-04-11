@@ -1,0 +1,114 @@
+{
+    "scope": {
+        "names": {},
+        "children": [
+            {
+                "names": {
+                    "a": {
+                        "declaration": {
+                            "type": "Identifier",
+                            "name": "a",
+                            "range": [
+                                24,
+                                25
+                            ]
+                        },
+                        "references": [
+                            {
+                                "identifier": {
+                                    "type": "Identifier",
+                                    "name": "a",
+                                    "range": [
+                                        24,
+                                        25
+                                    ]
+                                },
+                                "access": "W"
+                            }
+                        ]
+                    },
+                    "arguments": {
+                        "declaration": {
+                            "type": "Identifier",
+                            "name": "arguments",
+                            "range": [
+                                1,
+                                1
+                            ]
+                        },
+                        "references": []
+                    }
+                },
+                "children": [],
+                "range": [
+                    1,
+                    32
+                ],
+                "blockScope": {
+                    "names": {},
+                    "children": [
+                        {
+                            "names": {},
+                            "children": [],
+                            "range": [
+                                14,
+                                32
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "blockScope": {
+            "names": {},
+            "children": []
+        }
+    },
+    "entities": [
+        {
+            "declaration": {
+                "type": "Identifier",
+                "name": "a",
+                "range": [
+                    11,
+                    12
+                ]
+            },
+            "references": []
+        },
+        {
+            "declaration": {
+                "type": "Identifier",
+                "name": "arguments",
+                "range": [
+                    1,
+                    1
+                ]
+            },
+            "references": []
+        },
+        {
+            "declaration": {
+                "type": "Identifier",
+                "name": "a",
+                "range": [
+                    24,
+                    25
+                ]
+            },
+            "references": [
+                {
+                    "identifier": {
+                        "type": "Identifier",
+                        "name": "a",
+                        "range": [
+                            24,
+                            25
+                        ]
+                    },
+                    "access": "W"
+                }
+            ]
+        }
+    ]
+}
